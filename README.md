@@ -87,35 +87,13 @@ Dessa forma, a escolha do modelo ideal depende diretamente do cenário de aplica
 
 ---
 
-# Como Executar o Projeto
+# Consultar o Código
 
-## Instalação das Dependências
-
-```bash
-pip install ultralytics opencv-python
-````
-
----
-
-## Executando o Projeto
-
-Após instalar as dependências, execute o arquivo principal do projeto:
-
-```bash
-python main.py
-```
-
----
-
-# Teste do Código
-
-O arquivo principal do projeto foi disponibilizado com o nome:
+## Disponível em 
 
 ```bash
 main.py
-```
-
-Você pode executar o código e testar todos os modelos YOLO26 diretamente em seu computador para visualizar os resultados das detecções e comparar o desempenho entre os modelos analisados.
+````
 
 ---
 
