@@ -1,19 +1,22 @@
-# Sistemas Evolutivos e Aplicados à Robótica — YOLO26
+````md
+# 🤖 Sistemas Evolutivos e Aplicados à Robótica — YOLO26
 
 ## 📌 Sobre o Projeto
 
-Este projeto apresenta um estudo comparativo entre diferentes modelos da família YOLO26, desenvolvidos pela Ultralytics, com foco em tarefas de detecção de objetos utilizando Visão Computacional e Inteligência Artificial.
+Este projeto apresenta um estudo comparativo entre diferentes modelos da família **YOLO26**, desenvolvidos pela **Ultralytics**, com foco em tarefas de **detecção de objetos** utilizando técnicas de **Visão Computacional** e **Inteligência Artificial**.
 
-O objetivo principal é analisar o comportamento de diferentes arquiteturas YOLO em relação a:
+O objetivo principal é analisar o comportamento das diferentes arquiteturas YOLO em relação aos seguintes fatores:
 
-- Velocidade de inferência
-- Desempenho computacional
-- Precisão na detecção de objetos
-- Capacidade de reconhecimento em cenários complexos
+- ⚡ Velocidade de inferência
+- 🧠 Desempenho computacional
+- 🎯 Precisão na detecção de objetos
+- 🔍 Capacidade de reconhecimento em cenários complexos
 
 ---
 
 # 🧠 Tecnologias Utilizadas
+
+As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto:
 
 - Python
 - YOLO26
@@ -26,9 +29,9 @@ O objetivo principal é analisar o comportamento de diferentes arquiteturas YOLO
 
 # 📚 Modelos Utilizados
 
-Os seguintes modelos foram analisados durante os testes:
+Os seguintes modelos da família YOLO26 foram analisados durante os experimentos:
 
-| Modelo | Descrição |
+| Modelo | Categoria |
 |---|---|
 | YOLO26n | Nano |
 | YOLO26s | Small |
@@ -40,21 +43,21 @@ Os seguintes modelos foram analisados durante os testes:
 
 # ⚙️ Metodologia
 
-Os experimentos seguiram as seguintes etapas:
+Os experimentos foram realizados seguindo as seguintes etapas:
 
-1. Download automático dos modelos YOLO
-2. Carregamento da imagem de teste
-3. Execução da inferência
-4. Medição do tempo de processamento
-5. Análise dos objetos detectados
+1. Download automático dos modelos YOLO26;
+2. Carregamento da imagem de teste;
+3. Execução da inferência utilizando cada modelo;
+4. Coleta do tempo de processamento;
+5. Análise dos objetos detectados.
 
-Todos os modelos foram testados utilizando o mesmo cenário para garantir igualdade nas comparações.
+Todos os modelos foram testados utilizando o mesmo cenário e a mesma imagem de entrada, garantindo igualdade nas comparações realizadas.
 
 ---
 
 # 🖼️ Objetos Detectados
 
-Durante os testes, foram identificados:
+Durante os testes, foram identificados diferentes tipos de objetos, incluindo:
 
 - Pessoas
 - Bicicletas
@@ -80,17 +83,59 @@ Durante os testes, foram identificados:
 
 # 📈 Conclusão
 
-Os testes demonstraram que modelos maiores apresentam maior capacidade de detecção e reconhecimento de objetos, porém exigem maior tempo de processamento.
+Os resultados obtidos demonstram que modelos maiores possuem maior capacidade de detecção e reconhecimento de objetos, porém exigem maior poder computacional e maior tempo de processamento.
 
-Já os modelos menores, como o YOLO26n, oferecem excelente desempenho para aplicações em tempo real devido à sua velocidade de inferência reduzida.
+Por outro lado, modelos menores, como o **YOLO26n**, apresentam excelente desempenho para aplicações em tempo real devido à sua alta velocidade de inferência.
 
-A escolha do modelo ideal depende diretamente do cenário de aplicação e dos requisitos computacionais do sistema.
+Dessa forma, a escolha do modelo ideal depende diretamente do cenário de aplicação e dos requisitos computacionais do sistema.
 
 ---
 
 # ▶️ Como Executar o Projeto
 
-## 1️⃣ Clone o repositório
+## 📥 Instalação das Dependências
 
 ```bash
-git clone https://github.com/SEU-USUARIO/atividade-1-yolo26.git
+pip install ultralytics opencv-python
+````
+
+---
+
+## 🚀 Executando o Projeto
+
+Após instalar as dependências, execute o arquivo principal do projeto:
+
+```bash
+python main.py
+```
+
+---
+
+# 🧪 Teste do Código
+
+O arquivo principal do projeto foi disponibilizado com o nome:
+
+```bash
+main.py
+```
+
+Você pode executar o código e testar todos os modelos YOLO26 diretamente em seu computador para visualizar os resultados das detecções e comparar o desempenho entre os modelos analisados.
+
+---
+
+# 👨‍💻 Autor
+
+**Victor Guilherme Moreira Pinto**
+Engenharia da Computação — Universidade Veiga de Almeida
+
+---
+
+# 📖 Referências
+
+* Ultralytics — YOLO26
+* OpenCV Documentation
+* Python Documentation
+
+```
+```
+
