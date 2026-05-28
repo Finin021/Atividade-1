@@ -87,9 +87,7 @@ Dessa forma, a escolha do modelo ideal depende diretamente do cenário de aplica
 
 ---
 
-## Consultar o Código
-
-## Disponível em:
+## Código disponível em:
 
 ```bash
 main.py
