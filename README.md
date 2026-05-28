@@ -13,7 +13,7 @@ O objetivo principal é analisar o comportamento das diferentes arquiteturas YOL
 
 ---
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto:
 
@@ -26,7 +26,7 @@ As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto:
 
 ---
 
-# Modelos Utilizados
+## Modelos Utilizados
 
 Os seguintes modelos da família YOLO26 foram analisados durante os experimentos:
 
@@ -40,7 +40,7 @@ Os seguintes modelos da família YOLO26 foram analisados durante os experimentos
 
 ---
 
-# Metodologia
+## Metodologia
 
 Os experimentos foram realizados seguindo as seguintes etapas:
 
@@ -54,7 +54,7 @@ Todos os modelos foram testados utilizando o mesmo cenário e a mesma imagem de 
 
 ---
 
-# Objetos Detectados
+## Objetos Detectados
 
 Durante os testes, foram identificados diferentes tipos de objetos, incluindo:
 
@@ -65,7 +65,7 @@ Durante os testes, foram identificados diferentes tipos de objetos, incluindo:
 
 ---
 
-# 📊 Resultados Obtidos
+## Resultados Obtidos
 
 | Modelo | Tempo de Inferência | Objetos Detectados |
 |---|---|---|
@@ -77,7 +77,7 @@ Durante os testes, foram identificados diferentes tipos de objetos, incluindo:
 
 ---
 
-# Conclusão
+## Conclusão
 
 Os resultados obtidos demonstram que modelos maiores possuem maior capacidade de detecção e reconhecimento de objetos, porém exigem maior poder computacional e maior tempo de processamento.
 
@@ -87,9 +87,9 @@ Dessa forma, a escolha do modelo ideal depende diretamente do cenário de aplica
 
 ---
 
-# Consultar o Código
+## Consultar o Código
 
-## Disponível em 
+## Disponível em:
 
 ```bash
 main.py
@@ -97,7 +97,7 @@ main.py
 
 ---
 
-# 📖 Referências
+## Referências
 
 * Ultralytics — YOLO26
 * OpenCV Documentation
