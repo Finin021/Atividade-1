@@ -90,7 +90,7 @@ Dessa forma, a escolha do modelo ideal depende diretamente do cenário de aplica
 ## Código disponível em:
 
 ```bash
-main.py
+main.ipynb
 ````
 
 ---
