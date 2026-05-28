@@ -1,19 +1,19 @@
-# 🤖 Sistemas Evolutivos e Aplicados à Robótica — YOLO26
+# Sistemas Evolutivos e Aplicados à Robótica — YOLO26
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto apresenta um estudo comparativo entre diferentes modelos da família **YOLO26**, desenvolvidos pela **Ultralytics**, com foco em tarefas de **detecção de objetos** utilizando técnicas de **Visão Computacional** e **Inteligência Artificial**.
 
 O objetivo principal é analisar o comportamento das diferentes arquiteturas YOLO em relação aos seguintes fatores:
 
-- ⚡ Velocidade de inferência
-- 🧠 Desempenho computacional
-- 🎯 Precisão na detecção de objetos
-- 🔍 Capacidade de reconhecimento em cenários complexos
+-  Velocidade de inferência
+-  Desempenho computacional
+-  Precisão na detecção de objetos
+-  Capacidade de reconhecimento em cenários complexos
 
 ---
 
-# 🧠 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto:
 
@@ -26,7 +26,7 @@ As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto:
 
 ---
 
-# 📚 Modelos Utilizados
+# Modelos Utilizados
 
 Os seguintes modelos da família YOLO26 foram analisados durante os experimentos:
 
@@ -40,7 +40,7 @@ Os seguintes modelos da família YOLO26 foram analisados durante os experimentos
 
 ---
 
-# ⚙️ Metodologia
+# Metodologia
 
 Os experimentos foram realizados seguindo as seguintes etapas:
 
@@ -54,7 +54,7 @@ Todos os modelos foram testados utilizando o mesmo cenário e a mesma imagem de 
 
 ---
 
-# 🖼️ Objetos Detectados
+# Objetos Detectados
 
 Durante os testes, foram identificados diferentes tipos de objetos, incluindo:
 
@@ -80,7 +80,7 @@ Durante os testes, foram identificados diferentes tipos de objetos, incluindo:
 
 ---
 
-# 📈 Conclusão
+# Conclusão
 
 Os resultados obtidos demonstram que modelos maiores possuem maior capacidade de detecção e reconhecimento de objetos, porém exigem maior poder computacional e maior tempo de processamento.
 
@@ -90,9 +90,9 @@ Dessa forma, a escolha do modelo ideal depende diretamente do cenário de aplica
 
 ---
 
-# ▶️ Como Executar o Projeto
+# Como Executar o Projeto
 
-## 📥 Instalação das Dependências
+## Instalação das Dependências
 
 ```bash
 pip install ultralytics opencv-python
@@ -100,7 +100,7 @@ pip install ultralytics opencv-python
 
 ---
 
-## 🚀 Executando o Projeto
+## Executando o Projeto
 
 Após instalar as dependências, execute o arquivo principal do projeto:
 
@@ -110,7 +110,7 @@ python main.py
 
 ---
 
-# 🧪 Teste do Código
+# Teste do Código
 
 O arquivo principal do projeto foi disponibilizado com o nome:
 
@@ -122,19 +122,10 @@ Você pode executar o código e testar todos os modelos YOLO26 diretamente em se
 
 ---
 
-# 👨‍💻 Autor
-
-**Victor Guilherme Moreira Pinto**
-Engenharia da Computação — Universidade Veiga de Almeida
-
----
-
 # 📖 Referências
 
 * Ultralytics — YOLO26
 * OpenCV Documentation
 * Python Documentation
 
-```
-```
 
