@@ -1,4 +1,4 @@
-# 🚀 Sistemas Evolutivos e Aplicados à Robótica — YOLO26
+# Sistemas Evolutivos e Aplicados à Robótica — YOLO26
 
 ## 📌 Sobre o Projeto
 
