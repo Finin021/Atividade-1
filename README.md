@@ -60,9 +60,6 @@ Durante os testes, foram identificados diferentes tipos de objetos, incluindo:
 
 - Pessoas
 - Bicicletas
-- Motocicletas
-- Automóveis
-- Caminhões
 - Bolsas
 - Animais
 
