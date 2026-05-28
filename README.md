@@ -1,4 +1,3 @@
-````md
 # 🤖 Sistemas Evolutivos e Aplicados à Robótica — YOLO26
 
 ## 📌 Sobre o Projeto
