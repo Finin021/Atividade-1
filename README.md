@@ -90,7 +90,40 @@ Dessa forma, a escolha do modelo ideal depende diretamente do cenário de aplica
 ## Código disponível em:
 
 ```bash
-main.ipynb
+!pip install ultralytics
+
+
+import requests
+import cv2
+import numpy as np
+import time
+from ultralytics import YOLO
+from google.colab.patches import cv2_imshow
+
+url="https://media-manager.noticiasaominuto.com/1920/naom_5ba23e134f397.webp"
+response = requests.get(url)
+
+image_array = np.asarray(bytearray(response.content), dtype=np.uint8)
+img = cv2.imdecode(image_array, cv2.IMREAD_COLOR)
+
+# 2. Modelo (Alterar de acordo com as versões: n/s/m/l/x)
+model = YOLO("yolo26n.pt")
+
+# 3. Tempo de inferência
+results = model(img)
+
+start = time.perf_counter()
+results = model(img)
+end = time.perf_counter()
+
+tempo = end - start
+print(f"Tempo de inferência: {tempo:.4f} segundos")
+
+# 4. Anotar imagem
+annotated = results[0].plot()
+
+# 5. Mostrar imagem (Colab)
+cv2_imshow(annotated)
 ````
 
 ---
