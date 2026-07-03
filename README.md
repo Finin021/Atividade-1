@@ -126,12 +126,3 @@ annotated = results[0].plot()
 cv2_imshow(annotated)
 ````
 
----
-
-## Referências
-
-* Ultralytics — YOLO26
-* OpenCV Documentation
-* Python Documentation
-
-
